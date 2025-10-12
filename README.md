@@ -9,6 +9,7 @@ The goal is to build a fully functional **real-time telemetry link** using **Ard
 ## 🏁 The Story So Far
 
 I bought the **Traxxas T-Maxx 2.5** as a **salvage truck** — it hadn’t run in years, and it came with missing screws, cracked plastics, burned electronics and a non-starting engine.  
+
 After a complete teardown and rebuild, including a **new glow plug**, **fuel line**, **gaskets**, and **carburetor cleaning**, the TRX 2.5 engine finally came back to life.  
 
 Once it was running again, I realized how much data this little engine produces — RPM, temperature, voltage, vibration — and that’s when the idea of this project was born.
@@ -73,26 +74,20 @@ The challenge is making the electronics survive **heat, vibration, and fuel resi
 
 ---
 
-## 🔋 Power Setup
-
-- **Main Power:** 7.2V NiMH / 11.1V LiPo battery  
-- **LM2596:** Converts down to 5V  
-- **AMS1117:** Provides stable 3.3V for RF modules and ESP32  
-- **74LVC245:** Handles logic shifting safely between MCUs
-
----
-
 ## 🗓️ Roadmap
 
 | Stage | Description | Status |
 |--------|--------------|---------|
-| **Hardware Planning** | Component selection, wiring design | ✅ Done |
+| **Hardware Planning** | Component selection, last checks on the car| ✅ Done |
 | **RF Link Test** | nRF24 communication tests | 🔄 In Progress |
 | **Sensor Setup** | Connect & verify RPM, temp, voltage sensors | ⏳ Next |
 | **Firmware Development** | Telemetry data structure & transmission | ⏳ Planned |
 | **Dashboard Display** | Visualization on the remote control | ⏳ Future Goal |
 
 ---
+
+### 📔 Project Journal
+For the full build story, technical notes, and progress updates, see the [Project Journal](./project_journal.md).
 
 ## 🧠 Author
 
