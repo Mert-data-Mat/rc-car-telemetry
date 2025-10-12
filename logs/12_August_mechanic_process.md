@@ -35,6 +35,7 @@ I tore everything down to the bare chassis and slowly brought it back piece by p
 - Replaced **glow plug, gaskets, and O-rings**, and re-tuned all needles to factory specs.  
 - Installed new **fuel lines** and a clean air filter.  
 - After a few hard pulls and adjustments, it finally roared back to life.  
+- Swapped the old EZ-Start system for a manual pull-start — simpler, lighter, and way more reliable in the long run.
 
 ### Electronics
 - Swapped in new servos for throttle and steering.  
@@ -59,6 +60,10 @@ It sputtered a bit at first, then settled into a stable idle after a few needle 
 The TRX 2.5 ran beautifully, loud and smoky in all the right ways.  
 
 > After years of silence, hearing that engine scream again was the spark for this whole telemetry project.
+
+<p align="center">
+  <img src="../images/final_version.jpg" width="500" alt="Traxxas T-Maxx 2.5 - After Repairs">
+</p>
 ---
 
 ## 🧠 Notes & Takeaways
@@ -72,3 +77,4 @@ The TRX 2.5 ran beautifully, loud and smoky in all the right ways.
 ---
 
 *End of log.*
+
