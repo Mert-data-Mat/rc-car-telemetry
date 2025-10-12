@@ -86,8 +86,8 @@ The challenge is making the electronics survive **heat, vibration, and fuel resi
 
 ---
 
-### 📔 Project Journal
-For the full build story, technical notes, and progress updates, see the [Project Journal](./project_journal.md).
+### 📔 Project Logs
+For the full build story, technical notes, and progress updates, see the [Project logs](./logs).
 
 ## 🧠 Author
 
