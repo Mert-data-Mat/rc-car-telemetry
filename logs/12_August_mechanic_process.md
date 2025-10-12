@@ -1,4 +1,4 @@
-# Log – Traxxas T-Maxx 2.5 Repair & First Startup  
+# Log 1 – Traxxas T-Maxx 2.5 Repair & First Startup  
 **Date:** 12 August, 2025  
 **Stage:** Restoration & Pre-Telemetry Setup  
 ---
@@ -77,4 +77,5 @@ The TRX 2.5 ran beautifully, loud and smoky in all the right ways.
 ---
 
 *End of log.*
+
 
