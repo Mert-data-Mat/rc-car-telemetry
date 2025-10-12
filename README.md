@@ -1,8 +1,8 @@
-# RC Car Telemetry System (Hardware Stage)
+# RC Car Telemetry System
 
 This repository documents the development of a **custom telemetry system** for my **Traxxas T-Maxx 2.5** — a legendary nitro RC truck that I’m bringing back to life and upgrading with modern electronics.  
 
-The goal is to build a fully functional **real-time telemetry link** using **Arduino Nano**, **ESP32**, and **nRF24L01+ PA+LNA** modules to monitor key parameters such as **RPM**, **temperature**, **voltage**, and **acceleration** while the truck is running.
+The goal is to build a fully functional **real-time telemetry link** using **Arduino Nano**, **ESP32**, and **nRF24L01+ PA+LNA** modules to monitor key parameters such as **RPM**, **temperature**, **voltage** and **acceleration**.
 
 ---
 
