@@ -65,12 +65,12 @@ The challenge is making the electronics survive **heat, vibration, and fuel resi
 
 ---
 
-## 🧩 Current Goals
+### Current Goals
 
-- Stabilize **power regulation** for sensors and RF modules  
-- Test **nRF24L01+ communication** between Nano and ESP32  
-- Start **RPM and temperature sensor calibration**  
-- Plan for **data visualization** (serial monitor → later dashboard UI)
+- Get the hardware stable and power lines clean.  
+- Set up a solid wireless link between the Arduino Nano and ESP32.  
+- Bring core sensors online — RPM, temperature, and voltage.  
+- Once everything runs smooth, start logging data and plan the dashboard.
 
 ---
 
