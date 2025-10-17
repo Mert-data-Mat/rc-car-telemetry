@@ -1,14 +1,20 @@
-# Log 2 - Testing Sensors
-** Date: ** 17 October 2025
+# Log 2 — Testing Sensors  
+**Date:** 17 October 2025  
 
 
-## Overview
-Sensors delivered yesterday so I tested all of them. Here is the list of the sensors and their job:
 
-    MAX6675 + K-type Thermocouple – measures engine head temperature.
-    Hall Effect RPM Sensor (A3144) – detects wheel or clutch rotation for RPM measurement.
-	MPU6050 – tracks acceleration, tilt, and vibration.
-	Tilt Sensor (SW-520D) – simple digital switch for rollover or motion detection. (Not sure to use it. MPU6050 seems enough but will consider later.)
+##  Overview  
+The sensors were delivered yesterday, so I tested each one individually to confirm proper operation.  
+Below is the list of sensors and their intended purpose in the RC Telemetry System:
+
+| Sensor | Function / Purpose |
+|:-----------------------------|:----------------------------------|
+| **MAX6675 + K-type Thermocouple** | Measures engine head temperature accurately. |
+| **Hall Effect RPM Sensor (A3144)** | Detects wheel or clutch rotation for RPM measurement. |
+| **MPU6050** | Tracks acceleration, tilt, and vibration of the car. |
+| **Tilt Sensor (SW-520D)** | Simple digital switch for rollover or motion detection.<br>*(Might not be necessary — the MPU6050 can already handle tilt data.)* |
+
+
 
 
 ## Summary
