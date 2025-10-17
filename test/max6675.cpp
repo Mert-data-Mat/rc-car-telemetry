@@ -29,7 +29,7 @@ MAX6675 thermocouple(thermoSCK, thermoCS, thermoSO);
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("MAX6675 K-type Thermocouple Test");
+  Serial.println("MAX6675 Test");
   delay(1000);
 }
 
@@ -37,7 +37,7 @@ void loop() {
   float celsius = thermocouple.readCelsius();
   float fahrenheit = thermocouple.readFahrenheit();
 
-  if (isnan(celsius)) {
+  if (isnan(celsius && fahrenheit)) {
     Serial.println("Sensor error! Check wiring or probe.");
   } else {
     Serial.print("Temperature: ");
