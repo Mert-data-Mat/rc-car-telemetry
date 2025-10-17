@@ -13,12 +13,12 @@ Sensors delivered yesterday so I tested all of them. Here is the list of the sen
 
 ## Summary
 - MAX6675 seems working very stable and accurate, only tested on the desk. So I don't know the performance on the hugh temperatures.
-    ![Temperature Sensor](images/MAX6675.jpeg)
+    ![Temperature Sensor](../images/MAX6675.jpeg)
  
 
 - RPM Sensor is the most exciting one in my opinion. Also tested on the desk. Not sure it'll catch the 40.000 RPM but tested enougly around 4000 (Which is nothing)
 
-    ![RPM Sensor](images/rpm.jpeg)
+    ![RPM Sensor](../images/rpm.jpeg)
 - MPU6050 works great — very responsive to movement, tilt, and vibrations.  
   It should give solid orientation and motion data for the car once integrated into the telemetry system.  
 
