@@ -80,7 +80,7 @@ The challenge is making the electronics survive **heat, vibration, and fuel resi
 |--------|--------------|---------|
 | **Hardware Planning** | Component selection, last checks on the car| ✅ Done |
 | **RF Link Test** | nRF24 communication tests | 🔄 In Progress |
-| **Sensor Setup** | Connect & verify RPM, temp, voltage sensors | ⏳ Next |
+| **Sensor Setup** | Connect & verify RPM, temp, motion sensors | ✅ Done |
 | **Firmware Development** | Telemetry data structure & transmission | ⏳ Planned |
 | **Dashboard Display** | Visualization on the remote control | ⏳ Future Goal |
 
