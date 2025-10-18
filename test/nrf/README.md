@@ -54,11 +54,17 @@ This test serves as a foundational example for sensor-to-telemetry communication
 
 After initial testing, communication between modules is mostly functional, but several issues still need to be verified and improved.
 Here’s what I’ll focus on in the next stage:
-	•	Power Stability Testing:
+
+Power Stability Testing:
+
 I’ll re-test the modules using a dedicated 5 V supply with a 100 µF capacitor on each nRF24 adapter to ensure stable ACK responses and reduce packet loss.
-	•	Signal Reliability Optimization:
+
+Signal Reliability Optimization:
+
 Plan to test multiple configurations for data rate, channel, and power level (e.g. 1 Mbps vs 250 Kbps, channel 76 vs 108) to find the most stable setup in indoor and outdoor conditions.
-	•	Auto-ACK and Retry Behavior:
+
+Auto-ACK and Retry Behavior:
+
 I’ll experiment with different retry delays and counts (setRetries() values) to minimize missed acknowledgements and evaluate how the modules behave at longer distances.
 
 
