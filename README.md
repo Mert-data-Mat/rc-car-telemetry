@@ -40,13 +40,9 @@ Power is managed through **LM2596** (step-down converter) and **AMS1117** (3.3V 
 | **ESP32** | Receiver, dashboard processor, and future data logger |
 | **nRF24L01+ PA+LNA** | Wireless transceiver for telemetry |
 | **AMS1117-3.3V** | 3.3V power regulator for RF module |
-| **LM2596** | Buck converter for system power |
-| **74LVC245** | Logic level shifter (5V → 3.3V) |
 | **Hall Effect Sensor** | Measures clutch or wheel RPM |
 | **MAX6675 + K-Type Thermocouple** | Engine head temperature sensor |
 | **MPU6050** | Detects vibration, tilt, and acceleration |
-| **Voltage Divider** | Monitors battery voltage |
-
 ---
 
 ## 🚙 Test Platform: Traxxas T-Maxx 2.5
