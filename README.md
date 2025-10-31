@@ -41,7 +41,6 @@ Power is managed through **LM2596** (step-down converter) and **AMS1117** (3.3V 
 | **nRF24L01+ PA+LNA** | Wireless transceiver for telemetry |
 | **AMS1117-3.3V** | 3.3V power regulator for RF module |
 | **LM2596** | Buck converter for system power |
-| **74LVC245** | Logic level shifter (5V → 3.3V) |
 | **Hall Effect Sensor** | Measures clutch or wheel RPM |
 | **MAX6675 + K-Type Thermocouple** | Engine head temperature sensor |
 | **MPU6050** | Detects vibration, tilt, and acceleration |
@@ -67,22 +66,22 @@ The challenge is making the electronics survive **heat, vibration, and fuel resi
 
 ### Current Goals
 
-- Get the hardware stable and power lines clean.  
-- Set up a solid wireless link between the Arduino Nano and ESP32.  
-- Bring core sensors online — RPM, temperature, and voltage.  
+- Set up a solid wireless link between the Arduino Nano and ESP32. ✅ DONE
+- Bring core sensors online — RPM, temperature, and voltage. ☑️ Currently working on it.
+- Get the hardware stable and power lines clean.
 - Once everything runs smooth, start logging data and plan the dashboard.
 
 ---
 
 ## 🗓️ Roadmap
 
-| Stage | Description | Status |
-|--------|--------------|---------|
-| **Hardware Planning** | Component selection, last checks on the car| ✅ Done |
-| **RF Link Test** | nRF24 communication tests | 🔄 In Progress |
-| **Sensor Setup** | Connect & verify RPM, temp, motion sensors | ✅ Done |
-| **Firmware Development** | Telemetry data structure & transmission | ⏳ Planned |
-| **Dashboard Display** | Visualization on the remote control | ⏳ Future Goal |
+| Stage | Description                                 | Status |
+|--------|---------------------------------------------|---------|
+| **Hardware Planning** | Component selection, last checks on the car | ✅ Done |
+| **RF Link Test** | nRF24 communication tests                   | 🔄 In Progress |
+| **Sensor Setup** | Connect & test RPM, temp, motion sensors    | ✅ Done |
+| **Firmware Development** | Telemetry data structure & transmission     | ⏳ Planned |
+| **Dashboard Display** | Visualization on the remote control         | ⏳ Future Goal |
 
 ---
 
